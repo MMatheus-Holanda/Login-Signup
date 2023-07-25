@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(45deg, rgb(40, 14, 75), rgb(218, 112, 111));
+    height: 100vh;
+}
+
+.container{
+    display: flex;    
+    align-items: center;
+    justify-content: center;    
+    margin-top: 250px;    
+    height: 430px;
+}
+
+.left-side{    
+    height: 480px;
+    width: 430px;
+    border-radius: 20px 0px 0px 20px; 
+    box-shadow: 0px 1px 30px 2px rgba(0, 0, 0, 0.726);   
+}
+
+.left-side img{
+    height: 480px;
+    width: 430px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.left-side p{
+    color: rgb(228, 74, 18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -58px;
+    font-size: 28px;
+    letter-spacing: 11px;
+    font-weight: 700;
+}
+
+.right-side{
+    background-color: rgba(173, 85, 83, 0.856);
+    height: 480px;
+    width: 430px;
+    border-radius: 0px 20px 20px 0px;   
+    box-shadow: 0px 1px 30px 2px rgba(0, 0, 0, 0.726);  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;     
+}
+
+.right-side form, input{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;   
+}
+
+.right-side form{
+    margin-top: -50px;    
+}
+
+.right-side input{
+    width: 270px;
+    height: 28px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.720);
+    color: rgba(255, 255, 255, 0.720);
+    font-size: 18px;
+    outline: none;
+}
+
+.right-side input::placeholder{
+    color: rgba(255, 255, 255, 0.720);
+}
+
+.right-side button{
+    height: 45px;
+    width: 123px;
+    margin: 10px; 
+    margin-bottom: 50px;   
+    font-size: 18px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.720);
+    border: 2px solid rgba(255, 255, 255, 0.720);
+    border-radius: 3px;
+}
+
+.ancor {
+    color: rgba(255, 255, 255, 0.720);
+    margin-bottom: -50px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgba(40, 14, 75, 0.288);
+}
+
+.ancor:hover{
+    cursor: pointer;
+    color: rgb(40, 14, 75);
+    transform: scale(1.1);     
+}
+
+.signup-container{
+    background-color:rgba(173, 85, 83, 0.856) ;
+    height: 580px;
+    width: 450px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 1px 30px 2px rgba(0, 0, 0, 0.726);
+}
+
+.martian{
+    margin-top: -525px;
+    margin-left: 279px;      
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 28px;
+    color:rgb(228, 74, 18);
+    background-color: rgb(40, 14, 75);
+    height: 55px;
+    width: 450px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.martian p{
+    margin-left: 100px;
+}
+
+.signup-container form{    
+    width: 450px;
+    height: 490px;
+    margin-bottom: -500px;
+    margin-right: 40px;
+    margin-left: -340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-container input{
+    width: 270px;
+    height: 28px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.720);
+    color: rgba(255, 255, 255, 0.720);
+    font-size: 18px;
+    outline: none;
+}
+
+.signup-container input::placeholder{
+    color: rgba(255, 255, 255, 0.720);
+}
+
+.signup-container button{
+    margin: 20px;
+    height: 50px;
+    width: 270px;
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: rgb(228, 74, 18);
+    background-color: rgb(40, 14, 75);
+    border-radius: 10px;
+}
+
+.active{
+    display: none;
+}
+
+.div-account{    
+    position: relative;
+    top: 230px;
+    left: -350px;    
+}
+
+.p-account{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.720);
+    letter-spacing: 0px;    
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    text-align: center;
+}
+
+.p-account:hover{
+    transform: scale(1.1); 
+    color: rgb(40, 14, 75);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 885px) {    
+
+    .left-side{        
+        height: 380px;
+        width: 330px;
+    }
+
+    .right-side{        
+        height: 380px;
+        width: 330px;
+    }
+
+    .left-side img{
+        height: 380px;
+        width: 330px;
+    }
+
+    .left-side p{
+        font-size: 22px;
+        margin-top: -50px;    
+        letter-spacing: 9px;
+    }
+
+    .right-side input{
+        width: 220px;
+        height: 28px;       
+        font-size: 15px;        
+    }
+
+    .right-side button{
+        height: 35px;
+        width: 100px;
+        margin: 10px; 
+        margin-bottom: 50px;   
+        font-size: 15px;       
+    }
+
+    .ancor {                
+        font-size: 18px;                
+    }
+}
+
